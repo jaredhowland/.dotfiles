@@ -29,6 +29,6 @@ Run all scripts by running `~/.dotfiles/bootstrap.sh` or run them individually i
 1. `software/bootstrap.sh`: homebrew configuration and installation scripts. Next steps rely on software installed here.
 2. `bash/bootstrap.sh`: profile, functions, aliases.
 3. `git/bootstrap.sh` : git configuration.
-4. `macos/bootstrap.sh` : osx configuration
+4. `macos/bootstrap.sh` : macOS configuration
 
 Based on <https://github.com/afranken/dotfiles>.
