@@ -13,7 +13,7 @@ _download ZIP, unpack to `~/.dotfiles`_
 
 Install all desired software. 
 
-After installing GIT, to sync the local repo with the remote, do:
+After installing Git, to sync the local repo with the remote, do:
 
     cd ~/.dotfiles
     git init
