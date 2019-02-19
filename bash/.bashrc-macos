@@ -1,0 +1,13 @@
+##OSX-specific Bash configuration
+
+# complete homebrew commands, installed with brew.
+if [ -f "$(brew --repository)/Library/Contributions/brew_bash_completion.sh" ]; then
+  source "$(brew --repository)/Library/Contributions/brew_bash_completion.sh"
+fi
+
+# apt-get / brew install 'bash-completion', installed via brew-install.sh
+if [ -f /usr/local/etc/bash_completion ]; then
+  source /usr/local/etc/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+  source /etc/bash_completion
+fi
