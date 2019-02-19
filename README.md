@@ -24,8 +24,9 @@ There is a `bootstrap.sh` script in most folders, **take a look at each script b
 
 Run scripts in this order:
 
-1. `brew/`: homebrew configuration and installation scripts. Next steps rely on software installed here.
-2. `git/` : git configuration.
-3. `bash/`: profile, functions, aliases.
-4. `osx/` : osx configuration
+1. `software/bootstrap.sh`: homebrew configuration and installation scripts. Next steps rely on software installed here.
+2. `git/bootstrap.sh` : git configuration.
+3. `bash/bootstrap.sh`: profile, functions, aliases.
+4. `macos/bootstrap.sh` : osx configuration
 
+Based on <https://github.com/afranken/dotfiles>.
