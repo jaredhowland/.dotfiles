@@ -3,12 +3,15 @@
 
 This repository contains configuration and installation scripts for **macOS High Sierra**.
 
-if Git is already installed,
+if Git is already installed:
+
 _Checkout workspace to `~/.dotfiles/`_
 
 otherwise
 
-_download ZIP, unpack to `~/.dotfiles`_, install all desired software. 
+_download ZIP, unpack to `~/.dotfiles`_
+
+Install all desired software. 
 
 After installing GIT, to sync the local repo with the remote, do:
 
@@ -21,8 +24,7 @@ After installing GIT, to sync the local repo with the remote, do:
 
 There is a `bootstrap.sh` script in most folders, **take a look at each script before executing it. (!)**
 
-
-Run scripts in this order:
+Run all scripts by running `~/.dotfiles/bootstrap.sh` or run them individually in this order:
 
 1. `software/bootstrap.sh`: homebrew configuration and installation scripts. Next steps rely on software installed here.
 2. `bash/bootstrap.sh`: profile, functions, aliases.
