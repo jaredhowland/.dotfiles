@@ -9,10 +9,14 @@ MAC_UNAME="Darwin"
 CURRENT_UNAME=$(uname)
 
 #read local includes
-for file in ${DOTFILES_PATH}/local/.*-local
-do
-  source ${file}
-done
+#manually add any other `${DOTFILES_PATH}/local/.*-local` files you add
+source ${DOTFILES_PATH}/local/.aliases-local
+source ${DOTFILES_PATH}/local/.git-local
+source ${DOTFILES_PATH}/local/.macos-local
+# for file in ${DOTFILES_PATH}/local/.*-local
+# do
+#  source ${file}
+# done
 
 #include these for all shells
 source "${SHELLS_SRC_PATH}"/.aliases
