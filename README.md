@@ -3,13 +3,13 @@
 
 This repository contains configuration and installation scripts for **macOS High Sierra**.
 
-if Git is already installed:
+If Git is already installed:
 
 _Checkout workspace to `~/.dotfiles/`_
 
-otherwise
+Otherwise
 
-_download ZIP, unpack to `~/.dotfiles`_
+_Download `.zip`, unpack to `~/.dotfiles`_
 
 Install all desired software. 
 
