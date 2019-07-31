@@ -55,7 +55,9 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
+## 6 is default
 defaults write NSGlobalDomain KeyRepeat -int 1
+## 25 is default
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 ###############################################################################
